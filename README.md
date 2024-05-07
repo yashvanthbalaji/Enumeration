@@ -49,25 +49,19 @@ link: This operator allows you to search for pages that link to a specific URL. 
 
 cache: This operator allows you to view the cached version of a page. For example, "cache:example.com" would show the cached version of the example.com website.
 
- 
-#DNS Enumeration
 
+## OUTPUT:
 
-##DNS Recon
+# DNS Enumeration
+## DNS Recon
 provides the ability to perform:
 Check all NS records for zone transfers
 Enumerate general DNS records for a given domain (MX, SOA, NS, A, AAAA, SPF , TXT)
 Perform common SRV Record Enumeration
 Top level domain expansion
 ## OUTPUT:
-
-
-
-
-
-
-
-##dnsenum
+![WhatsApp Image 2024-04-15 at 10 05 33 PM (2)](https://github.com/Vinothini1711/Echoserver/assets/144300204/9ab6e693-974a-4c59-90b0-3bba432d7bd2)
+## dnsenum
 Dnsenum is a multithreaded perl script to enumerate DNS information of a domain and to discover non-contiguous ip blocks. The main purpose of Dnsenum is to gather as much information as possible about a domain. The program currently performs the following operations:
 
 Get the host’s addresses (A record).
@@ -80,33 +74,30 @@ Calculate C class domain network ranges and perform whois queries on them (threa
 Perform reverse lookups on netranges (C class or/and whois netranges) (threaded).
 Write to domain_ips.txt file ip-blocks.
 This program is useful for pentesters, ethical hackers and forensics experts. It also can be used for security tests.
-
-
-##smtp-user-enum
+## OUTPUT:
+![WhatsApp Image 2024-04-16 at 9 42 20 AM (1)](https://github.com/Vinothini1711/Echoserver/assets/144300204/d14cf8f3-3c60-4d3e-a0ce-fe10b30a481c)
+![WhatsApp Image 2024-04-16 at 9 42 20 AM](https://github.com/Vinothini1711/Echoserver/assets/144300204/9d0f93a4-d765-4fd8-9279-7d8b2e5dfec2)
+## smtp-user-enum
 Username guessing tool primarily for use against the default Solaris SMTP service. Can use either EXPN, VRFY or RCPT TO.
-
+## OUTPUT:
+![WhatsApp Image 2024-04-15 at 10 05 33 PM](https://github.com/Vinothini1711/Echoserver/assets/144300204/ce1dd727-743e-44b8-bc6f-5908d8c95c15)
 
 In metasploit list all the usernames using head /etc/passwd or cat /etc/passwd:
-
 select any username in the first column of the above file and check the same
+## OUTPUT:
+![WhatsApp Image 2024-04-16 at 9 16 29 AM (1)](https://github.com/Vinothini1711/Echoserver/assets/144300204/ea4999a8-0b7b-4a79-bb3f-622599320c3b)
 
-
-#Telnet for smtp enumeration
+## Telnet for smtp enumeration
 Telnet allows to connect to remote host based on the port no. For smtp port no is 25
 telnet <host address> 25 to connect
 and issue appropriate commands
-  
- ##Output
-  
-  
-
-## nmap –script smtp-enum-users.nse <hostname>
-
-The smtp-enum-users.nse script attempts to enumerate the users on a SMTP server by issuing the VRFY, EXPN or RCPT TO commands. The goal of this script is to discover all the user accounts in the remote system.
-
-
 ## OUTPUT:
-
+ ![WhatsApp Image 2024-04-16 at 9 16 28 AM](https://github.com/Vinothini1711/Echoserver/assets/144300204/f4b46a3e-31ed-4083-9582-807f9cc12acf)
+ 
+## nmap –script smtp-enum-users.nse <hostname>
+The smtp-enum-users.nse script attempts to enumerate the users on a SMTP server by issuing the VRFY, EXPN or RCPT TO commands. The goal of this script is to discover all the user accounts in the remote system.
+## OUTPUT:
+![WhatsApp Image 2024-04-16 at 9 16 29 AM](https://github.com/Vinothini1711/Echoserver/assets/144300204/ae277861-75c5-446a-a9c8-c8c69eb0ebf9)
 
 ## RESULT:
 The Google hacking keywords and enumeration tools were identified and executed successfully
