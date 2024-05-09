@@ -32,25 +32,26 @@ Google hacking, also known as Google dorking, is a technique that involves using
 
 site: This operator allows you to search for pages that are within a specific website or domain. For example, "site:example.com" would search for pages that are on the example.com domain.
 Following searches for all the sites that is in the domain yahoo.com
-
+![Screenshot (105)](https://github.com/gowriganeshns/Enumeration/assets/145736316/6ef7ddaa-5c80-4166-8681-2886614542b1)
 filetype: This operator allows you to search for files of a specific type. For example, "filetype:pdf" would search for all PDF files.
 Following searches for pdf file in the domain yahoo.com
 
-
+![Screenshot (106)](https://github.com/gowriganeshns/Enumeration/assets/145736316/1466d212-2e5b-465b-a34a-fa289f7a2aa9)
 
 intext: This operator allows you to search for pages that contain specific text within the body of the page. For example, "intext:password" would search for pages that contain the word "password" within the body of the page.
-
+![Screenshot (107)](https://github.com/gowriganeshns/Enumeration/assets/145736316/6dc5407c-1eef-4e50-ac0e-a2388317ee77)
 
 inurl: This operator allows you to search for pages that contain specific text within the URL. For example, "inurl:admin" would search for pages that contain the word "admin" within the URL.
-
+![Screenshot (108)](https://github.com/gowriganeshns/Enumeration/assets/145736316/337aa744-5374-4432-bf21-ba00308a1bc5)
 intitle: This operator allows you to search for pages that contain specific text within the title tag. For example, "intitle:index of" would search for pages that contain "index of" within the title tag.
-
+![Screenshot (109)](https://github.com/gowriganeshns/Enumeration/assets/145736316/f6cc1298-da25-4e52-b1ce-6e001cf353a0)
 link: This operator allows you to search for pages that link to a specific URL. For example, "link:example.com" would search for pages that link to the example.com domain.
-
+![Screenshot (110)](https://github.com/gowriganeshns/Enumeration/assets/145736316/2efa252f-3345-4f3a-9f46-409accb8322d)
 cache: This operator allows you to view the cached version of a page. For example, "cache:example.com" would show the cached version of the example.com website.
 
-
 ## OUTPUT:
+![Screenshot 2024-05-09 154321](https://github.com/gowriganeshns/Enumeration/assets/145736316/0bb124c4-9f94-4cc2-96f3-f603e9abd34f)
+
 
 # DNS Enumeration
 ## DNS Recon
